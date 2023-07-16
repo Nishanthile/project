@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 1827px;
+    /* border: 1px solid red; */
+    height: 1555px;
+    display: flex;
+}
+.left{
+    max-width: 360px;
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+/* Top-left */
+.top-left{
+    display: flex;
+}
+/* Hamburger */
+.hamburger{
+    margin-top: 45px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.bar{
+    width: 32px;
+    height: 3px;
+    background-color: black;
+}
+/* Hamburger */
+.logo-img{
+    width:145px;
+    height: 55px;
+    margin: 27px 50px;
+}
+
+
+/* left-menu */
+.left-menu{
+    margin-top: 80px;
+    padding-left: 35px;
+    /* border: 1px solid green; */
+
+}
+.manage-block{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.drop{
+    height: 15px;
+}
+.block-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manage-content{
+    margin-top: 32px;
+    margin-left: 20px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 2400px;
+    background-color: #f5f4f4;
+    height: 100%;
+}
+
+.main-header{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 170px;
+    /* width: 100%; */
+    
+}
+.main-top-left{
+    margin: 40px 110px 85px 50px;
+    
+}
+.main-top-left >p{
+    font-size: 30px;
+    margin: 0px;
+}
+.main-top{
+    padding-top: 30px;
+ display: flex;
+}
+.search-icon{
+    width: 60px;
+    height: 75px;
+    background-color: #eceaea;
+    border-radius: 40px 0px 0px 40px;
+}
+.main-top >input{
+    border: none;
+    outline: none;
+    width:480px;
+    height:75px;
+    outline: 0;
+    border-radius: 0% 40px 40px 0%;
+    background-color: #eceaea;
+}
+.icon{
+    font-size: 30px;
+    padding: 20px 20px;
+}
+.main-hero{
+    height: 640px;
+    max-width: 100%;
+    margin: 0 10px;
+    background-color: #fdfdfd;
+}
+tr > th{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+th{
+    color: #7c8089;
+}
+tr>th ,td{
+    width: 70px;
+}
+tr>td{
+    padding: 15px 0;
+}
